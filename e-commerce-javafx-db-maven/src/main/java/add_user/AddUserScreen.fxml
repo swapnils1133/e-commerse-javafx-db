@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2F3A6B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_user.AddUserScreenController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="468.0" layoutY="37.0" prefHeight="46.0" prefWidth="264.0" style="-fx-background-color: #19D14E;" text="Add User" textFill="#e1e1e1">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="148.0" prefHeight="40.0" prefWidth="150.0" text="User Firstname" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="219.0" prefHeight="40.0" prefWidth="158.0" text="User Lastname" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="470.0" prefHeight="40.0" prefWidth="121.0" text="User Email" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="298.0" prefHeight="40.0" prefWidth="130.0" text="User Gender" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="548.0" prefHeight="40.0" prefWidth="121.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userFirstname" layoutX="620.0" layoutY="148.0" prefHeight="40.0" prefWidth="282.0" />
+      <TextField fx:id="userLastname" layoutX="620.0" layoutY="225.0" prefHeight="40.0" prefWidth="282.0" />
+      <TextField fx:id="gender" layoutX="620.0" layoutY="307.0" prefHeight="40.0" prefWidth="282.0" />
+      <TextField fx:id="age" layoutX="620.0" layoutY="387.0" prefHeight="40.0" prefWidth="282.0" />
+      <TextField fx:id="email" layoutX="620.0" layoutY="470.0" prefHeight="40.0" prefWidth="282.0" />
+      <TextField fx:id="password" layoutX="620.0" layoutY="548.0" prefHeight="40.0" prefWidth="282.0" />
+      <Button layoutX="507.0" layoutY="722.0" mnemonicParsing="false" onAction="#addUserClick" prefHeight="50.0" prefWidth="187.0" style="-fx-background-color: black;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Button>
+      <Label layoutX="337.0" layoutY="387.0" prefHeight="40.0" prefWidth="150.0" text="User Age" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="confirmPassword" layoutX="620.0" layoutY="626.0" prefHeight="40.0" prefWidth="282.0" />
+      <Label layoutX="325.0" layoutY="626.0" prefHeight="40.0" prefWidth="175.0" text="Confirm Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
