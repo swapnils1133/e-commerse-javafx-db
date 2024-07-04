@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: #443E5E;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginScreenController">
+   <children>
+      <TextField fx:id="loginName" layoutX="539.0" layoutY="284.0" prefHeight="42.0" prefWidth="334.0" promptText="Enter Username" />
+      <Label contentDisplay="CENTER" layoutX="299.0" layoutY="285.0" prefHeight="21.0" prefWidth="151.0" text="User Name" textFill="#fff6f6">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="299.0" layoutY="378.0" prefHeight="36.0" prefWidth="133.0" text="password" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffbe1f" height="103.0" layoutX="-3.0" opacity="0.91" stroke="BLACK" strokeType="INSIDE" width="1349.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="318.0" layoutY="19.0" text="Ecommerce Management">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Label>
+      <TextField fx:id="password" layoutX="539.0" layoutY="377.0" prefHeight="42.0" prefWidth="334.0" promptText="Enter Password" />
+      <Button layoutX="421.0" layoutY="528.0" mnemonicParsing="false" onAction="#loginButtonClick" prefHeight="42.0" prefWidth="334.0" style="-fx-background-color: #32EA67;" text="SUBMIT" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="491.0" layoutY="122.0" text="Login Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="450.0" layoutY="202.0" text="Login With Your Username And Password" textFill="WHITE" />
+      <Label fx:id="errorMessage" layoutX="435.0" layoutY="435.0" prefHeight="42.0" prefWidth="305.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   
+   </children>
+</AnchorPane>

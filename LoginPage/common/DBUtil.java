@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DBUtil {
-
+	
 	private static Connection connection;
 	private static Statement statement;
 	
@@ -29,4 +29,5 @@ public class DBUtil {
     public static void executequery(String query) throws SQLException {
     	statement.execute(query);
     }
+
 }
