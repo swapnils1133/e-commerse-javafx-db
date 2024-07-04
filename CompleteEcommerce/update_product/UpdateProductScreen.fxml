@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2F3A6B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="update_product.UpdateProductScreenController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="468.0" layoutY="37.0" prefHeight="46.0" prefWidth="264.0" style="-fx-background-color: #19D14E;" text="Delete Product" textFill="#e1e1e1">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="339.0" prefHeight="57.0" prefWidth="187.0" text="Product  Name" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="456.0" prefHeight="57.0" prefWidth="196.0" text="Product Quantity" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="320.0" layoutY="578.0" prefHeight="57.0" prefWidth="178.0" text="Product Price" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="507.0" layoutY="676.0" mnemonicParsing="false" onAction="#updateUserClick" prefHeight="50.0" prefWidth="187.0" style="-fx-background-color: black;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Button>
+      <TextField fx:id="productQuantity" layoutX="590.0" layoutY="456.0" prefHeight="57.0" prefWidth="322.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="productName" layoutX="590.0" layoutY="339.0" prefHeight="57.0" prefWidth="322.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="productPrice" layoutX="590.0" layoutY="578.0" prefHeight="57.0" prefWidth="322.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="productName1" layoutX="236.0" layoutY="150.0" prefHeight="57.0" prefWidth="305.0" style="-fx-background-color: red;" text="ProductNameToUpdate">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameToUpdate" layoutX="590.0" layoutY="150.0" prefHeight="57.0" prefWidth="322.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Button layoutX="863.0" layoutY="150.0" mnemonicParsing="false" onAction="#enterUpdateClick" prefHeight="57.0" prefWidth="167.0" style="-fx-background-color: black;" text="Enter" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Button>
+      <TextField fx:id="updateMessage" alignment="CENTER" layoutX="373.0" layoutY="238.0" prefHeight="57.0" prefWidth="434.0">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

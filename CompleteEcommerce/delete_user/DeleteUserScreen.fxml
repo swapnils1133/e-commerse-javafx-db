@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #2F3A6B;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="delete_user.DeleteUserScreenController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="468.0" layoutY="46.0" prefHeight="46.0" prefWidth="264.0" style="-fx-background-color: #19D14E;" text="Delete User" textFill="#e1e1e1">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="281.0" layoutY="172.0" prefHeight="54.0" prefWidth="244.0" style="-fx-background-color: red;" text="UserNameToDelete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameToDelete" layoutX="563.0" layoutY="176.0" prefHeight="50.0" prefWidth="282.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Button layoutX="845.0" layoutY="176.0" mnemonicParsing="false" onAction="#deleteUserClick" prefHeight="51.0" prefWidth="134.0" style="-fx-background-color: black;" text="Enter" textFill="#e4e4e4">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="deleteMessage" alignment="CENTER" layoutX="347.0" layoutY="320.0" prefHeight="50.0" prefWidth="470.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
